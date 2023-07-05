@@ -1,5 +1,5 @@
-SELECT name, id, cohort_id 
+SELECT name, email, phone
 FROM students
-WHERE email IS NULL 
-OR phone IS NULL;
+WHERE github IS NULL 
+AND end_date IS NOT NULL;
 
